@@ -1,0 +1,19 @@
+{
+  "name": "artemis-marketplace",
+  "owner": {
+    "name": "osa822630-droid"
+  },
+  "metadata": {
+    "description": "ARTEMIS Android automation and mobile testing skills for Claude.",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "artemis",
+      "source": "./plugins/artemis",
+      "description": "Plan Android tests, analyze device evidence, and use connected ARTEMIS MCP tools when available.",
+      "version": "1.0.0",
+      "homepage": "https://github.com/osa822630-droid/artemis"
+    }
+  ]
+}

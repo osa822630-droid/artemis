@@ -11,6 +11,7 @@
   <a href="./README_CN.md">中文文档</a> •
   <a href="#workflow-showcase">Workflow Showcase</a> •
   <a href="#quick-start">Quick Start</a> •
+  <a href="#claude-web-marketplace">Claude Web Marketplace</a> •
   <a href="#mcp-setup">MCP for IDEs</a> •
   <a href="#benchmarks">Benchmarks</a> •
   <a href="https://discord.gg/wF2FN4WHGY">Discord Community</a>
@@ -71,6 +72,32 @@
     </td>
   </tr>
 </table>
+
+<a id="claude-web-marketplace"></a>
+## Claude Web — Add marketplace
+
+In Claude Web's **Add marketplace** dialog, enter:
+
+```text
+https://github.com/osa822630-droid/artemis
+```
+
+If the field asks for `owner/repo`, use `osa822630-droid/artemis`. Select
+**artemis-marketplace**, install **artemis**, and enable it in your conversation.
+No Claude Code command is needed. Availability of the UI and connector permissions
+is controlled by Claude; this plugin adds no paid-plan requirement.
+
+Try: **“Use ARTEMIS to plan Android login tests and mark any tests that have not
+been executed as not run.”**
+
+The included skill supports test planning and uploaded screenshots/logs without a
+server. **Installing the plugin alone does not connect a phone.** Actual device
+control requires a separately configured ARTEMIS host and MCP connection. Claude
+Web cannot launch a local stdio server or access your computer via `localhost`.
+This plugin does not include a hosted endpoint or an authenticated remote gateway.
+
+See the [Arabic Claude Web installation guide](docs/claude-web-marketplace.md)
+and [plugin documentation](plugins/artemis/README.md) for setup and limitations.
 
 <a id="quick-start"></a>
 ## Quick Start

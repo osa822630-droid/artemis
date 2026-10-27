@@ -1,0 +1,13 @@
+{
+  "name": "artemis",
+  "version": "1.0.0",
+  "description": "Android automation and evidence-based mobile testing with ARTEMIS. Includes offline test planning and optional connected MCP workflows.",
+  "author": {
+    "name": "osa822630-droid"
+  },
+  "homepage": "https://github.com/osa822630-droid/artemis",
+  "repository": "https://github.com/osa822630-droid/artemis",
+  "license": "Apache-2.0",
+  "keywords": ["android", "mobile-testing", "artemis", "mcp"],
+  "skills": "./skills/"
+}

@@ -17,6 +17,22 @@ env:
   UV_NO_PROGRESS: "1"
 
 jobs:
+  claude-marketplace:
+    name: Claude marketplace package
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Validate marketplace and self-contained web skills
+        run: python -m unittest discover -s tests/marketplace -v
+
   python-quality:
     name: Python 3.12 / ${{ matrix.os }}
     runs-on: ${{ matrix.os }}

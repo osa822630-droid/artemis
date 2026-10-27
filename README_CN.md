@@ -318,3 +318,11 @@ ARTEMIS 提供两种运行模式以适应不同的自动化需求：
 非 Google 所有的代码位于 [`third_party/`](third_party/) 目录下，每个上游项目一个子目录，并各自附带 `LICENSE` 与 `METADATA`。
 
 - [`third_party/mobile_use`](third_party/mobile_use/) – 来自 Minitap, Inc. 的 [mobile-use](https://github.com/minitap-ai/mobile-use) 的部分代码，Apache License 2.0。
+
+## Claude Web Marketplace
+
+通过 Claude Web 的 **Add marketplace** 添加 `https://github.com/osa822630-droid/artemis`，
+然后安装 **artemis-marketplace** 中的 **artemis** 插件。插件提供测试规划和证据分析技能；
+实际设备控制仍需单独配置 ARTEMIS 主机及 MCP 连接，并非安装后即可连接手机。
+详见 [English overview](README.md#claude-web-marketplace) /
+[العربية](docs/claude-web-marketplace.md)。
